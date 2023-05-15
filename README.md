@@ -8,4 +8,4 @@ User will be able to
 5. Edit a shop
 6. Create a new shop
 7. Sort/Filter to view the shops by likes/reviews/cost
-
+8. Search for a shop
