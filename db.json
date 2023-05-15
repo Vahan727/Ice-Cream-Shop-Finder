@@ -9,7 +9,10 @@
             "favflavor": "",
             "favflavor_image": "",
             "rating": "",
-            "reviews": ""
+            "reviews": [
+                "The service at this ice cream shop was exceptional! The staff was friendly, attentive, and went above and beyond to make our experience delightful. They even offered personalized recommendations and made sure we were satisfied with our choices. Highly recommended!",
+                "I can't rave enough about the quality of the ice cream at this shop. Each scoop was a little piece of heaven. The flavors were rich, creamy, and perfectly balanced, and the texture was incredibly smooth. I'm already planning my next visit!"
+            ]
         },
         {
             "id": 2,
@@ -20,7 +23,10 @@
             "favflavor": "",
             "favflavor_image": "",
             "rating": "",
-            "reviews": ""
+            "reviews": [
+                "I had a wonderful experience at this ice cream shop. The staff was friendly and attentive, making sure I got exactly what I wanted. I appreciate their excellent customer service!",
+                "The ice cream at this shop is absolutely amazing. Every flavor I tried was rich and creamy, and I could taste the high-quality ingredients in every bite. I can't wait to come back for more!"
+            ]
         },
         {
             "id": 3,
@@ -31,7 +37,10 @@
             "favflavor": "",
             "favflavor_image": "",
             "rating": "",
-            "reviews": ""
+            "reviews": [
+                "Oh my goodness! This ice cream shop is like a dream come true for my taste buds! The flavors are so yummy and magical; it's like they were made by ice cream fairies! I couldn't resist the temptation to have seconds (or maybe thirds) of their heavenly scoops. Highly recommended for a sweet adventure!",
+                "Wow, this ice cream shop rocks! The service was super friendly and they even let me sample multiple flavors before deciding. Definitely coming back for more scoops!"
+            ]
         },
         {
             "id": 4,
@@ -42,7 +51,10 @@
             "description": "Welcome to The Frosty Treats ice cream shop, where we bring the enchanting flavors of the North Pole to your taste buds. Step into a winter wonderland of delightful frozen delights as we craft creamy scoops and frosty creations that capture the essence of polar paradise. From Arctic Vanilla to Minty Glacier, our handcrafted ice creams transport you to a land of icy delights, while our inventive toppings and whimsical decorations add a touch of frosty magic. Indulge in the cool embrace of The Frosty Treats, where every spoonful is a chilly adventure straight from the heart of the North Pole.",
             "favflavor_image": "",
             "rating": "",
-            "reviews": ""
+            "reviews": [
+                "The service at this ice cream shop was amazing! The staff was so friendly and patient with our group of indecisive friends. We had a blast trying out all the different flavors and the staff made the whole experience even better!",
+                "Oh my gosh, you guys, this ice cream joint is off the charts! The ice cream flavors are like pure heaven in a cone, I can't even! They've got all the classics, and even some wild ones like unicorn sprinkle explosion and cookie dough dreamland. Seriously, it's legit drool-worthy. Totally obsessed!"
+            ]
         },
         {
             "id": 5,
@@ -53,9 +65,10 @@
             "favflavor": "",
             "favflavor_image": "",
             "rating": "",
-            "reviews": {
-                "review1": ""
-            }
+            "reviews": [
+                "I gotta say, this ice cream shop knows how to treat their customers right! The staff was super friendly and helpful, making the whole experience enjoyable. Plus, they were quick to serve and had a wide variety of flavors to choose from. Definitely coming back for more!",
+                "Oh my gosh, this ice cream is so bomb! The flavors are insanely good and the texture is super creamy. 10/10 would recommend to all my friends!"
+            ]
         },
         {
             "id": 6,
@@ -66,7 +79,10 @@
             "favflavor": "",
             "favflavor_image": "",
             "rating": "",
-            "reviews": ""
+            "reviews": [
+                "Wow, this ice cream shop serves scoops faster than a penguin sliding on ice, I was impressed by their speedy service!",
+                "Dude, this ice cream joint seriously rocks! The ice cream flavors are out of this world, and every scoop tastes like a slice of heaven in my mouth!"
+            ]
         },
         {
             "id": 7,
@@ -77,7 +93,10 @@
             "favflavor": "",
             "favflavor_image": "",
             "rating": "",
-            "reviews": ""
+            "reviews": [
+                "Dude, the root beer at this place hits different, like a sweet bubbly symphony that makes my taste buds do a happy dance!",
+                "This ice cream shop's service is on point, man! They always hook you up with a smile and speedy scoops, making it the go-to spot for a chill hangout with friends."
+            ]
         },
         {
             "id": 8,
@@ -88,7 +107,10 @@
             "favflavor": "",
             "favflavor_image": "",
             "rating": "",
-            "reviews": ""
+            "reviews": [
+                "OMG, the ice cream at this place is lit! The flavors are off the hook, and the creamy texture is like a party in my mouth. Totally worth the brain freeze!",
+                "The service at this ice cream shop is so on point, they treated me like a boss and I didn't even have to wait long for my order, definitely coming back!"
+            ]
         },
         {
             "id": 9,
@@ -99,7 +121,10 @@
             "favflavor": "",
             "favflavor_image": "",
             "rating": "",
-            "reviews": ""
+            "reviews": [
+                "I love how easy it is to find parking near the ice cream shop, making my visit even sweeter!",
+                "OMG, this ice cream place is like a dream come true! The ice cream tastes like magical unicorn sprinkles and it's sooooo yummy!"
+            ]
         },
         {
             "id": 10,
@@ -110,7 +135,10 @@
             "favflavor": "",
             "favflavor_image": "",
             "rating": "",
-            "reviews": ""
+            "reviews": [
+                "The ice cream shop had such a short wait time, I didn't even have a chance to finish scrolling through my Instagram feed!",
+                "OMG, this ice cream joint serves the most epic flavors!"
+            ]
         },
         {
             "id": 11,
@@ -121,7 +149,10 @@
             "favflavor": "",
             "favflavor_image": "",
             "rating": "",
-            "reviews": ""
+            "reviews": [
+                "The chocolates at this ice cream shop are simply divine, with a melt-in-your-mouth texture and an irresistible blend of flavors that left me craving for more.",
+                "This ice cream shop is lit! The flavors are off the charts, and every scoop is like a party in your mouth, making it the ultimate hangout spot!"
+            ]
         }
     ]
 }
