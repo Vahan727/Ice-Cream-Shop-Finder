@@ -5,9 +5,10 @@
             "name": "Scoops",
             "location": "123 Main Street, Juneau, AK 99801",
             "store_image": "https://i.pinimg.com/originals/36/89/1c/36891c2d420b0d8f5c886b2da61a029c.jpg",
+            "description": "Welcome to Scoops Ice Cream Shop, a delightful haven for ice cream enthusiasts seeking a delectable treat to satisfy their sweet cravings. Step into a whimsical atmosphere adorned with colorful decorations and a delightful aroma that lures you in. Our wide array of handcrafted ice cream flavors, made with only the finest ingredients, tantalize taste buds with every scoop. From classic favorites like velvety vanilla and rich chocolate to unique creations like lavender honey and toasted marshmallow, there's a flavor to suit every palate. Indulge in our freshly baked waffle cones, expertly crafted sundaes, or build your own ice cream masterpiece with an array of mouthwatering toppings. At Scoops Ice Cream Shop, we strive to create unforgettable moments and joy-filled experiences, one lick at a time.",
             "favflavor": "",
             "favflavor_image": "",
-            "stars": "",
+            "rating": "",
             "reviews": ""
         },
         {
@@ -15,9 +16,10 @@
             "name": "Harbor Ice",
             "location": "1145 Glacier Ave, Juneau, AK 99801",
             "store_image": "https://media-cdn.tripadvisor.com/media/photo-s/06/54/1e/ef/the-ice-cream-shop.jpg",
+            "description": "Welcome to Harbor Ice, where indulgence meets coastal bliss! Nestled along the picturesque shoreline, our ice cream shop offers a tantalizing array of frozen delights that will transport your taste buds to a state of pure delight. With an emphasis on quality and creativity, our artisanal ice cream is lovingly crafted using the finest locally sourced ingredients, ensuring every scoop is a heavenly experience. From classic flavors with a twist to innovative creations inspired by the ocean breeze, Harbor Ice invites you to savor each lick while immersing yourself in the serene ambiance of our seaside-inspired decor. Whether you're seeking a refreshing treat on a sunny afternoon or a sweet escape from the bustling city, Harbor Ice promises an unforgettable ice cream adventure that will leave you longing for more.",
             "favflavor": "",
             "favflavor_image": "",
-            "stars": "",
+            "rating": "",
             "reviews": ""
         },
         {
@@ -25,9 +27,10 @@
             "name": "Ice Cream Parlor",
             "location": "2345 Glacier Way, Juneau, AK 99801",
             "store_image": "https://media-cdn.tripadvisor.com/media/photo-s/05/c8/8b/7a/exterior-ice-cream-parlor.jpg",
+            "description": "Welcome to Ice Cream Parlor, the ultimate destination for ice cream enthusiasts! Indulge in a delightful array of handcrafted frozen treats that will transport your taste buds to pure bliss. Our charming shop offers a nostalgic ambiance, complete with cozy seating and a friendly staff ready to guide you through our mouthwatering flavors. From classic favorites like rich chocolate and creamy vanilla to adventurous creations like salted caramel pretzel and exotic fruit sorbets, there's a scoop for every palate. With an emphasis on quality ingredients and impeccable craftsmanship, Ice Cream Parlor is a haven where dreams come true, one scoop at a time.",
             "favflavor": "",
             "favflavor_image": "",
-            "stars": "",
+            "rating": "",
             "reviews": ""
         },
         {
@@ -36,8 +39,9 @@
             "location": "265 Marine Way, Juneau, AK 99801",
             "store_image": "https://res.cloudinary.com/sagacity/image/upload/c_crop,h_3024,w_4032,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/IMG_4740_xhjut0.jpg",
             "favflavor": "",
+            "description": "Welcome to The Frosty Treats ice cream shop, where we bring the enchanting flavors of the North Pole to your taste buds. Step into a winter wonderland of delightful frozen delights as we craft creamy scoops and frosty creations that capture the essence of polar paradise. From Arctic Vanilla to Minty Glacier, our handcrafted ice creams transport you to a land of icy delights, while our inventive toppings and whimsical decorations add a touch of frosty magic. Indulge in the cool embrace of The Frosty Treats, where every spoonful is a chilly adventure straight from the heart of the North Pole.",
             "favflavor_image": "",
-            "stars": "",
+            "rating": "",
             "reviews": ""
         },
         {
@@ -45,9 +49,10 @@
             "name": "Proper Ice Cream",
             "location": "789 Glacier View Avenue, Juneau, AK 99801",
             "store_image": "https://propericecream.com/wp-content/uploads/2022/10/bocaratonshop-1.jpg",
+            "description": "Indulge in a decadent symphony of flavors at our prestigious and highly rated ice cream shop. Step into a world where artisanal craftsmanship meets culinary innovation, as our expert scoopers craft delightful frozen creations that ignite the senses. From classic favorites to daring avant-garde creations, every scoop of our velvety-smooth ice cream is meticulously crafted with the finest ingredients and a passion for perfection. Our elegant ambiance and impeccable service complement the unparalleled quality of our delectable treats, making it an unforgettable destination for ice cream connoisseurs seeking an extraordinary and unforgettable experience.",
             "favflavor": "",
             "favflavor_image": "",
-            "stars": "",
+            "rating": "",
             "reviews": {
                 "review1": ""
             }
@@ -57,9 +62,10 @@
             "name": "The Sweat Haven",
             "location": "272 Gold Nugget Avenue, Juneau, AK 99801",
             "store_image": "https://newengland.com/wp-content/uploads/best-connecticut-ice-cream-arethusa-farm-780x520.jpg",
+            "description": "Welcome to Sweet Haven, the ultimate destination for indulgence! Our charming ice cream shop and candy emporium is a delightful haven for anyone with a sweet tooth. Step into a world of pure bliss as you discover our mouthwatering array of artisanal ice cream flavors, crafted with love and the finest ingredients. But the sweetness doesn't end there! Delight in our carefully curated selection of delectable candies from around the world, ensuring that every visit to Sweet Haven is an enchanting journey of sugary delights. Come and experience a little slice of heaven where ice cream dreams and candy fantasies come true.",
             "favflavor": "",
             "favflavor_image": "",
-            "stars": "",
+            "rating": "",
             "reviews": ""
         },
         {
@@ -67,9 +73,10 @@
             "name": "Lickity Split",
             "location": "483 Iceberg Lane, Juneau, AK 99801",
             "store_image": "https://d2w1ef2ao9g8r9.cloudfront.net/images/_sameSizeThumb/Ice-Cream-Shop-Thumbnail_2022-04-01-191249_xjqs.jpg",
+            "description": "Lickity Split is a delightful ice cream shop that brings joy to every sweet tooth in town. With its charming ambiance and a tantalizing array of ice cream flavors, this place is a paradise for dessert enthusiasts. But that's not all! Lickity Split takes their indulgence a step further by offering mouthwatering root beer floats that perfectly blend the nostalgic fizz of root beer with creamy scoops of their homemade ice cream. Whether you're seeking a classic cone or a refreshing float, Lickity Split is the ultimate destination for delectable frozen treats that will leave you craving more.",
             "favflavor": "",
             "favflavor_image": "",
-            "stars": "",
+            "rating": "",
             "reviews": ""
         },
         {
@@ -77,9 +84,10 @@
             "name": "Brain Freeze",
             "location": "431 Gastineau Avenue, Juneau, AK 99801",
             "store_image": "https://restaurantdesign360.com/assets/static/content-img-63@2x.f71e539.b58a1943bb0b98c1835ca8c9254b0249.jpg",
+            "description": "Brain Freeze is a captivating ice cream shop that tantalizes taste buds with its extraordinary nitrogen ice cream creations. Using the mesmerizing power of liquid nitrogen, this innovative parlor crafts delightful frozen treats right before your eyes, resulting in a creamy texture and intense flavors that leave you craving for more. With an extensive array of mouthwatering flavors and an abundance of customizable toppings, Brain Freeze offers a delightful experience where science meets culinary artistry, leaving patrons in awe and satisfaction.",
             "favflavor": "",
             "favflavor_image": "",
-            "stars": "",
+            "rating": "",
             "reviews": ""
         },
         {
@@ -87,9 +95,10 @@
             "name": "Frosty Dream",
             "location": "8802 Forest Drive, Juneau, AK 99801",
             "store_image": "https://www.isaitaly.com/wp-content/uploads/2022/02/arredare-piccola-gelateria.jpg",
+            "description": "Welcome to Frosty Dream, an enchanting ice cream shop where the spirit of Christmas comes alive year-round. Step into our whimsical wonderland as we transport you to Santa's workshop itself. The interior is adorned with twinkling lights, vibrant holiday decorations, and cheerful elves bustling about. Indulge in a delightful array of handcrafted, frosty treats inspired by the holiday season. From creamy candy cane swirls to gingerbread cookie crumbles, each scoop is a taste of pure holiday magic. Let the nostalgia of childhood memories and the warmth of festive cheer embrace you as you savor every delicious spoonful. At Frosty Dream, joy and sweetness intertwine to create an unforgettable experience that will leave you with a heart full of holiday bliss.",
             "favflavor": "",
             "favflavor_image": "",
-            "stars": "",
+            "rating": "",
             "reviews": ""
         },
         {
@@ -97,9 +106,10 @@
             "name": "Soft Ice Cream",
             "location": "1234 Aurora Avenue, Juneau, AK 99801",
             "store_image": "https://mldvwwasb8tu.i.optimole.com/cb:esbD~6200b/w:1100/h:733/q:mauto/http://travelaway.me/wp-content/uploads/2018/06/ah-chu-gimp.jpg",
+            "description": "Welcome to Soft Ice Cream, the ultimate destination for soft serve ice cream lovers! Our charming soft ice cream shop crafts velvety, mouthwatering treats that will transport you to dessert heaven. Indulge in our delectable array of flavors, from classic vanilla and rich chocolate to whimsical twists like strawberry cheesecake and salted caramel. Using only the finest ingredients and our secret recipe, we create luscious soft serve that boasts an irresistibly creamy texture. Whether you prefer your cone topped with colorful sprinkles or a drizzle of decadent fudge, we invite you to savor each delightful lick and experience pure frozen bliss at Soft Ice Cream.",
             "favflavor": "",
             "favflavor_image": "",
-            "stars": "",
+            "rating": "",
             "reviews": ""
         },
         {
@@ -107,9 +117,10 @@
             "name": "The Sweet Treats",
             "location": "1531 Spruce Street, Juneau, AK 99801",
             "store_image": "https://cdn.vox-cdn.com/thumbor/vGbtzTf2Pq0OHoYBxSN6OIghaxw=/0x251:3500x2083/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22498840/blb15290_51158977762_o.jpg",
+            "description": "Welcome to Sweet Treats, the ultimate destination for ice cream lovers and confectionery enthusiasts. Indulge your sweet tooth with our delectable array of handcrafted ice cream flavors, ranging from classic favorites to innovative creations. But that's not all! We also offer a delightful selection of premium chocolates and candies, guaranteed to satisfy your cravings. Whether you're seeking a creamy scoop of ice cream or a tantalizing chocolate treat, Sweet Treats is your go-to shop for all things sweet and delightful.",
             "favflavor": "",
             "favflavor_image": "",
-            "stars": "",
+            "rating": "",
             "reviews": ""
         }
     ]
