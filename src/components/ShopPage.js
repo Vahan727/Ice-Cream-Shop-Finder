@@ -3,7 +3,7 @@ import React from 'react';
 function ShopPage() {
     return (
         <main>
-            <h1>It's</h1>
+            <h1>Cards go here</h1>
         </main>
     )
 }
