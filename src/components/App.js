@@ -2,8 +2,10 @@ import React from "react"
 import Header from "./Header"
 import ShopPage from "./ShopPage"
 import ShopDetails from "./ShopDetails"
+/*
 import ShopAddReview from "./ShopAddReview"
 import ShopForm from "./ShopForm"
+*/
 import Footer from "./Footer"
 
 
