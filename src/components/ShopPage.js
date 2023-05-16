@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import ShopCard from './ShopCard'
+import Search from "./Search"
 
 function ShopPage() {
 
@@ -15,17 +16,32 @@ function ShopPage() {
       .then(data => setShops(data))
     }
 
-    const mappedShops = shops.map((shop) => {
+    const [search, SetSearch] = useState('')
+
+function handleSearch(e) {
+  SetSearch(e.target.value)
+}
+
+const filteredShops = [...shops].filter((el) => {
+  return el.name.toLowerCase().includes(search.toLowerCase()
+  )})
+
+    const mappedShops = filteredShops.map((shop) => {
         return (
         <ShopCard 
           key={shop.id}
           shop={shop}
+          id={shop.id}
           />
         )
       })   
 
     return (
         <main>
+            <Search 
+            search={search}
+            handleSearch={handleSearch}
+            />
             {mappedShops}
         </main>
     )
