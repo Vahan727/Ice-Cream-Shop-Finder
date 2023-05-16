@@ -1,8 +1,6 @@
+import React from 'react';
 
-
-
-
-function Search(){
+function Search({search, handleSearch}){
 
     return (
         <div className="searchbar">
@@ -11,7 +9,9 @@ function Search(){
             type="text"
             id="search"
             name="search"
+            value={search}
             placeholder="Type a shop name or location to search..."
+            onChange={handleSearch}
             />
         </div>
       );

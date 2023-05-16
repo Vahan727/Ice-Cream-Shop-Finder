@@ -1,15 +1,13 @@
 
-
-
 function ShopDetail(){
 
 
     return(
         <><div>
-            <fig>
+            <figure>
                 <img src="shop image" alt="shop name" />
                 <img src="flavor image" alt="flavor name" />
-            </fig>
+            </figure>
         </div><div>
                 <p className="name"> Name: </p>
                 <p className="description">Description: </p>
