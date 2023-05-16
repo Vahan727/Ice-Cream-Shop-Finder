@@ -12,10 +12,10 @@ User will be able to
 # Client-Side-Routes
 | Client Route | Component        |
 |--------------|------------------|
-| /            | Header.js        |
+| /            | App.js        |
 | /addshop     | ShopForm.js      |
-| /addreview   | ShopAddReview.js |
-| /shopdetails | ShopDetails.js   |
+| /addreview/:id   | ShopAddReview.js |
+| /shopdetails/:id | ShopDetails.js   |
 
 
 # API-ROUTES
@@ -24,8 +24,8 @@ User will be able to
 |-------------------|----------------|--------------------------------------|--------------------------------------|
 | /shops            | GET            |                                      | [{...},{...}]                        |
 | /shops            | POST           | {name:, location:, image:, favFlav:} | {id:, name:, image:, favFlav:}       |
-| /shops/id         | PATCH          | {reviews:}                           | {id:,name:,image:,favFlav:,reviews:} |
-| /shops/id.reviews | DELETE         |                                      | {}                                   |
+| /shops/:id         | PATCH          | {reviews:}                           | {id:,name:,image:,favFlav:,reviews:} |
+                        
 
 <img src="./public/Home.png" alt="Home">
 <img src="./public/ShopDetail.png" alt="Shop Detail">
@@ -33,3 +33,4 @@ User will be able to
 <img src="./public/AddReview.png" alt="Add Review">
 <img src="./public/trello1.png" alt="trello board">
 <img src="./public/trello2.png" alt="trello">
+<img src="./public/ReactTree.png" alt="ReactTree">
