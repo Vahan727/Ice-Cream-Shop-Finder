@@ -31,3 +31,5 @@ User will be able to
 <img src="./public/ShopDetail.png" alt="Shop Detail">
 <img src="./public/AddShop.png" alt="Add Shop">
 <img src="./public/AddReview.png" alt="Add Review">
+<img src="./public/trello1.png" alt="trello board">
+<img src="./public/trello2.png" alt="trello">
