@@ -9,10 +9,16 @@ User will be able to
 7. Sort/Filter to view the shops by likes/reviews/cost
 8. Search for a shop
 
+# Client-Side-Routes
+| Client Route | Component        |
+|--------------|------------------|
+| /            | Header.js        |
+| /addshop     | ShopForm.js      |
+| /addreview   | ShopAddReview.js |
+| /shopdetails | ShopDetails.js   |
 
 
-
-API ROUTES
+# API-ROUTES
 
 | API Route         | Request Method | Body                                 | Response                             |
 |-------------------|----------------|--------------------------------------|--------------------------------------|
