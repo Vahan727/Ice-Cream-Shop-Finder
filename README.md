@@ -27,3 +27,7 @@ User will be able to
 | /shops/id         | PATCH          | {reviews:}                           | {id:,name:,image:,favFlav:,reviews:} |
 | /shops/id.reviews | DELETE         |                                      | {}                                   |
 
+<img src="./public/Home.png" alt="Home">
+<img src="./public/ShopDetail.png" alt="Shop Detail">
+<img src="./public/AddShop.png" alt="Add Shop">
+<img src="./public/AddReview.png" alt="Add Review">
