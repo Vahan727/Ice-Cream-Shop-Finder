@@ -18,7 +18,6 @@ User will be able to
 | /shopdetails | ShopDetails.js   |
 
 
-
 # API-ROUTES
 
 | API Route         | Request Method | Body                                 | Response                             |
