@@ -16,3 +16,15 @@ User will be able to
 | /addshop     | ShopForm.js      |
 | /addreview   | ShopAddReview.js |
 | /shopdetails | ShopDetails.js   |
+
+
+
+# API-ROUTES
+
+| API Route         | Request Method | Body                                 | Response                             |
+|-------------------|----------------|--------------------------------------|--------------------------------------|
+| /shops            | GET            |                                      | [{...},{...}]                        |
+| /shops            | POST           | {name:, location:, image:, favFlav:} | {id:, name:, image:, favFlav:}       |
+| /shops/id         | PATCH          | {reviews:}                           | {id:,name:,image:,favFlav:,reviews:} |
+| /shops/id.reviews | DELETE         |                                      | {}                                   |
+
