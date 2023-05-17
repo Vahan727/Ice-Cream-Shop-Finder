@@ -1,25 +1,25 @@
 
-// function ShopDetail({params}){
-//  const {id} = params;
 
-//     return(
-//         <><div>
-//             <figure>
-//                 <img src={Shop.image} alt="shop name" />
-//                 <img src={shop.favflavor_image}alt="flavor name" />
-//             </figure>
-//         </div><div>
-//                 <p className="name"> Name:{shop.name} </p>
-//                 <p className="description">Description: {shop.description}</p>
-//                 <p className="cost">Cost: {shop.cost}</p>
-//                 <p className="location">Location: {shop.location}</p>
-//                 <p className="rating">Rating: {shop.rating}</p>
-//             </div>
-//             <section>
-//                 <ul> {shop.reviews.map(review=>
-//                      <p className="reviews">{review}</p>)}
-                   
-//                 </ul>
+function ShopDetail(){
+
+
+    return(
+        <><div>
+            <figure>
+                <img src="shop image" alt="shop name" />
+                <img src="flavor image" alt="flavor name" />
+            </figure>
+        </div><div>
+                <p className="name"> Name: </p>
+                <p className="description">Description: </p>
+                <p className="cost">Cost: </p>
+                <p className="location">Location: </p>
+                <p className="rating">Rating: </p>
+            </div>
+            <section>
+                <ul>
+                    <p className="reviews">Review here</p>
+                </ul>
 
 //             </section>
 //             </>
