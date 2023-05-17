@@ -1,22 +1,23 @@
-import React, {useState, useEffect} from "react"
+import React from "react"
 import Header from "./Header"
 import ShopPage from "./ShopPage"
+import ShopDetails from "./ShopDetails"
+/*
+import ShopAddReview from "./ShopAddReview"
+import ShopForm from "./ShopForm"
+*/
 import Footer from "./Footer"
 
+
 function App() {
-
-const [shops, setShops] = useState([])
-
-function getShops() {
-  fetch('')
-  .then(resp => resp.json())
-  .then(data => setShops(data))
-}
 
   return (
     <div className="App">
       <Header />
       <ShopPage />
+      <ShopDetails />
+      {/*<ShopAddReview />*/}
+      {/*<ShopForm />*/}
       <Footer />
     </div>
   );

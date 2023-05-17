@@ -1,16 +1,14 @@
-import React from 'react';
-import Search from './Search';
+import {NavLink} from "react-router-dom";
 
 
-function NavBar() {
+function NavBar(){
 
 
-    return (
-        <div className="navigation">
-        <button>    </button>
-        <button>     </button>
-        <button> </button>
-        <Search/>
+    return(
+        <div>
+            <NavLink className="navigationBar" exact to="/">Home</NavLink>
+            <NavLink className="navigationBar" exact to="/addshop" >AddShop</NavLink>
+            <NavLink className="navigationBar" exact to="/addreview">AddReview</NavLink>
         </div>
     )
 }
