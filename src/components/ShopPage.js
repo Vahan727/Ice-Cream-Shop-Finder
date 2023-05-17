@@ -37,16 +37,12 @@ const filteredShops = [...shops].filter((el) => {
       })   
 
     return (
-        <main>
-<<<<<<< HEAD
-            <h1>Cards go here</h1>
-=======
+        <main className="shops">
             <Search 
             search={search}
             handleSearch={handleSearch}
             />
             {mappedShops}
->>>>>>> main
         </main>
     )
 }

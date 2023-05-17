@@ -1,35 +1,52 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Mogra;
+  background-color:lightblue;
+  background-image:url(/Users/mattyb/Development/code/phase-2/Ice-Cream-Shop-Finder/src/Ice-Cream-Wallpaper-Desktop-1068x601.jpg);
+  background-size:cover;
+  background-position:center center;
 }
+header h1{
+  display: flex;
+  justify-content: center;
+}
+.navigationBar {
+  font-size:larger;
+  margin:20px;
+  flex-direction:row;
+}
+.searchbar {
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
-header h1 {
-  font-size: 2.5em;
-  font-weight: 900;
-  text-align: center;
-  padding: 0.5rem 0;
 }
-.navigation button {
-  padding: 30px 60px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 8px;
-  margin: 15px;
+#search {
+  width:400px;
 }
-.searchBar {
-  float: right;
-  margin: 30px;
+  
+
+.shops {
+  list-style:none;
   
 }
-#search input {
-  width: 400px;
+
+
+.card {
+margin: 1rem;
+max-width: 200px;
+display:inline-grid;
+box-shadow:20px 20px 50px grey;
+padding: 1rem;
+background-color:lightcoral;
+}
+
+
+.card img {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+}
+
+.card  button {
+  background-color: moccasin;
+  font-style: Mogra;
 }
