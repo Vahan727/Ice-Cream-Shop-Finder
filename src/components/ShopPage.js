@@ -5,6 +5,7 @@ import Search from "./Search"
 function ShopPage({location}) {
   
 
+  
     const [shops, setShops] = useState([])
 
     useEffect(getShops, [location])
@@ -21,6 +22,8 @@ function handleSearch(e) {
   SetSearch(e.target.value)
 }
 
+
+
 const filteredShops = [...shops].filter((el) => {
   return el.name.toLowerCase().includes(search.toLowerCase()
   )})
@@ -31,12 +34,13 @@ const filteredShops = [...shops].filter((el) => {
           key={shop.id}
           shop={shop}
           id={shop.id}
+         
           />
         )
       })   
 
     return (
-        <main>
+        <main className="shops">
             <Search 
             search={search}
             handleSearch={handleSearch}
