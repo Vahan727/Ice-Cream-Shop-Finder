@@ -55,3 +55,13 @@ border-radius:8px;
   font-family:'Trebuchet MS' sans-serif;
   border-radius:8px;
 }
+
+.navigationBar{
+  
+    display: "inline-block";
+    width: "50px";
+    padding: "12px";
+    margin: "0 6px 6px";
+    background: "#1F6521";
+    color: "white";
+};

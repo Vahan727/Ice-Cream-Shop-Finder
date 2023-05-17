@@ -1,14 +1,21 @@
 import React from 'react';
-import NavBar from './NavBar';
+import Navbar from "./NavBar";
+
+
 
 function Header() {
+
+    
+
+
     return (
+
         <header>
-            <h1>Ice Cream Finder</h1>
-            <NavBar />
-            
+            <h1>Ice Cream Shop Finder</h1>
+            <Navbar />
         </header>
+   
     )
 }
 
-export default Header
+export default Header;
