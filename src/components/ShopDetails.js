@@ -34,7 +34,7 @@ function getShop() {
                 <p className="location">Location: {shop.location}</p>
                 <p className="favFlavor">Favflavor: {shop.favflavor}</p>
                 <p className="rating">Rating: {shop.rating}</p>
-                <p className="reviews">Reviews: {shop.review} </p>
+                <p className="reviews">Reviews: {shop.reviews} </p>
                 {/*button that routes to the ShopAddReview component*/}
             </div>
             <section>
