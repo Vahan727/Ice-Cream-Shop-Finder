@@ -21,12 +21,12 @@ function ShopDetail(){
                     <p className="reviews">Review here</p>
                 </ul>
 
-//             </section>
-//             </>
+           </section>
+          </>
     
     
         
-//     )
-// }
+    )
+}
 
-// export default ShopDetail;
+export default ShopDetail;
