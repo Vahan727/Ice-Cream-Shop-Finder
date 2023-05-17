@@ -3,13 +3,29 @@ import {NavLink} from "react-router-dom";
 
 function NavBar(){
 
+     
+    const linkStyles = {
+        display: "inline-block",
+        width: "50px",
+        padding: "12px",
+        margin: "0 6px 6px",
+        background: "#1F6521",
+        textDecoration: "none",
+        color: "white",
+      };
+
 
     return(
-        <div>
-            <NavLink className="navigationBar" exact to="/">Header</NavLink>
-            <NavLink className="navigationBar" exact to="/new" >AddShop</NavLink>
-            <NavLink className="navigationBar" exact to="/review">AddReview</NavLink>
-        </div>
+        <nav>
+            <NavLink className="navigationBar" exact to="/"  style={linkStyles}
+        activeStyle={{
+          background: "#53900F",
+        }}>Home</NavLink>
+            <NavLink className="navigationBar" to="/new"  style={linkStyles}
+        activeStyle={{
+          background: "#53900F",
+        }} >AddShop</NavLink>
+        </nav>
     )
 }
 

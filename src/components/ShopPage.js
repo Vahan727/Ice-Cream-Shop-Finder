@@ -2,16 +2,15 @@ import React, {useState, useEffect} from 'react';
 import ShopCard from './ShopCard'
 import Search from "./Search"
 
-function ShopPage() {
+function ShopPage({location}) {
+  
 
     const [shops, setShops] = useState([])
 
-    useEffect(() => {
-      getShops()
-    }, [])
+    useEffect(getShops, [location])
     
     function getShops() {
-      fetch('http://localhost:3000/shops')
+      fetch(`http://localhost:3000/shops${location.pathname}`)
       .then(resp => resp.json())
       .then(data => setShops(data))
     }
