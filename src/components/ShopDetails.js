@@ -29,7 +29,7 @@ function getShop() {
                 <p className="name"> Name: {shop.name}</p>
                 <p className="description">Description: {shop.description}</p>
                 <p className="location">Location: {shop.location}</p>
-                <p className="favFlavor">Rating: {shop.favFlavor}</p>
+                <p className="favFlavor">Favflavor: {shop.favflavor}</p>
                 <p className="rating">Rating: {shop.rating}</p>
                 <p className="reviews">Reviews: {shop.reviews}</p>
                 {/*button that routes to the ShopAddReview component*/}
