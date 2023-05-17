@@ -1,8 +1,7 @@
-
+import React from 'react';
 
 
 function ShopForm(){
-
 
     return (
         <div className="new-shop-form">

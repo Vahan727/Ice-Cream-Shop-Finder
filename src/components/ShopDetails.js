@@ -1,32 +1,47 @@
+import React, {useState, useEffect} from 'react';
+import {useParams} from 'react-router-dom'
 
+function ShopDetails(){
 
-function ShopDetail(){
+const [shop, setShop] = useState([])
 
+useEffect(() => {
+    getShop()
+}, [])
+
+const {id} = useParams()
+
+function getShop() {
+    fetch(`http://localhost:3000/shops/${id}`)
+    .then(resp => resp.json())
+    .then(data => setShop(data))
+}
 
     return(
-        <><div>
+        <>
+        <div>
             <figure>
-                <img src="shop image" alt="shop name" />
-                <img src="flavor image" alt="flavor name" />
+                <img src="image" alt="imagename" />
+                <img src="image" alt="imagename" />
             </figure>
-        </div><div>
-                <p className="name"> Name: </p>
-                <p className="description">Description: </p>
-                <p className="cost">Cost: </p>
-                <p className="location">Location: </p>
-                <p className="rating">Rating: </p>
+        </div>
+        <div>
+                <p className="name"> Name: {shop.name}</p>
+                <p className="description">Description: {shop.description}</p>
+                <p className="location">Location: {shop.location}</p>
+                <p className="rating">Rating: {shop.rating}</p>
+                <p className="reviews">Reviews: {shop.reviews}</p>
+                {/*button that routes to the ShopAddReview component*/}
             </div>
             <section>
                 <ul>
                     <p className="reviews">Review here</p>
                 </ul>
 
-           </section>
-          </>
-    
-    
+            </section>
+            </>
         
     )
 }
 
-export default ShopDetail;
+export default ShopDetails;
