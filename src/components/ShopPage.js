@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import ShopCard from './ShopCard'
 import Search from "./Search"
 
-function ShopPage() {
+function ShopPage({location}) {
 
   
     const [shops, setShops] = useState([])
@@ -12,7 +12,7 @@ function ShopPage() {
     }, [])
     
     function getShops() {
-      fetch('http://localhost:3000/shops')
+      fetch(`http://localhost:3000/shops/`)
       .then(resp => resp.json())
       .then(data => setShops(data))
     }

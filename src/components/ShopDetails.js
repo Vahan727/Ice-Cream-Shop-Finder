@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {useParams} from 'react-router-dom'
+import {useParams, Link} from 'react-router-dom'
 
 function ShopDetails(){
 
@@ -21,8 +21,8 @@ function getShop() {
         <>
         <div>
             <figure>
-                <img src="image" alt="imagename" />
-                <img src="image" alt="imagename" />
+                <img src={shop.store_image} alt={shop.name} />
+                <img src={shop.favflavor_image} alt={shop.favflavor_name} />
             </figure>
         </div>
         <div>
@@ -35,7 +35,9 @@ function getShop() {
             </div>
             <section>
                 <ul>
-                    <p className="reviews">Review here</p>
+                <Link to={`/addreview/${shop.id}`}>
+                    <button className="primary" >Add Review</button>
+                </Link> 
                 </ul>
 
             </section>
