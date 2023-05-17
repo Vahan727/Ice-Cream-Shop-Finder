@@ -1,21 +1,24 @@
 import React, {useState, useEffect} from 'react';
 import {useParams, Link} from 'react-router-dom'
 
-function ShopDetails(){
+function ShopDetails({location}){
 
 const [shop, setShop] = useState([])
 
+const {id} = useParams()
+
 useEffect(() => {
     getShop()
-}, [])
+}, [location])
 
-const {id} = useParams()
+
 
 function getShop() {
     fetch(`http://localhost:3000/shops/${id}`)
     .then(resp => resp.json())
     .then(data => setShop(data))
 }
+
 
     return(
         <>
@@ -31,8 +34,7 @@ function getShop() {
                 <p className="location">Location: {shop.location}</p>
                 <p className="favFlavor">Favflavor: {shop.favflavor}</p>
                 <p className="rating">Rating: {shop.rating}</p>
-                <ul className="reviews">Reviews: {shop.reviews.map(review=>
-                    <li>{review}</li>)}</ul>
+                <p className="reviews">Reviews: {shop.review} </p>
                 {/*button that routes to the ShopAddReview component*/}
             </div>
             <section>

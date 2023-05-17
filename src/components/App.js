@@ -17,8 +17,8 @@ function App() {
       <Header />
       <Switch>
       <Route path="/new"> <ShopForm location={location}/> </Route>
-      <Route path="/addreview/:id"> <ShopAddReview /> </Route>
-      <Route path="/shopdetails/:id"> <ShopDetails /> </Route>
+      <Route path="/addreview/:id"> <ShopAddReview location={location}/> </Route>
+      <Route path="/shopdetails/:id"> <ShopDetails location={location} /> </Route>
       <Route path="/"> <ShopPage location={location}/> </Route>
       </Switch>
       <Footer />
