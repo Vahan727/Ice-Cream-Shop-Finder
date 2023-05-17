@@ -1,5 +1,5 @@
 import React from "react"
-import {Switch, Route} from "react-router-dom"
+import {Switch, Route, useLocation} from "react-router-dom"
 import Header from "./Header"
 import ShopPage from "./ShopPage"
 import ShopDetails from "./ShopDetails"
@@ -10,14 +10,16 @@ import Footer from "./Footer"
 
 function App() {
 
+  const location = useLocation()
+
   return (
     <div className="App">
       <Header />
       <Switch>
-      <Route path="/addshop" element={<ShopForm />}/>
-      <Route path="/addreview/:id" element={<ShopAddReview />}/>
-      <Route path="/shopdetails/:id" element={<ShopDetails />}/>
-      <Route path="/" element={<ShopPage />}/>
+      <Route path="/new"> <ShopForm location={location}/> </Route>
+      <Route path="/addreview/:id"> <ShopAddReview /> </Route>
+      <Route path="/shopdetails/:id"> <ShopDetails /> </Route>
+      <Route path="/"> <ShopPage location={location}/> </Route>
       </Switch>
       <Footer />
     </div>
