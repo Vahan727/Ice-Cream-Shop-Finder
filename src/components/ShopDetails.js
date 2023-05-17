@@ -1,6 +1,8 @@
+import React from 'react';
 
-function ShopDetail(){
+function ShopDetail({shop}){
 
+    console.log({shop})
 
     return(
         <><div>
