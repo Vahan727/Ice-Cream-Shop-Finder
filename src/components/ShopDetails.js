@@ -40,7 +40,11 @@ const mappedReviews = shop.reviews.map((review, index) => <p key={index}>{review
                 <p className="rating">Rating: {shop.rating} / 5</p>
                 <p className="cost">Cost: {shop.cost}</p>
                 <p className="reviews"> Reviews: </p>
-                <div className="review">{shop.reviews.length === 0 ? "This shop doesn't have any reviews." : mappedReviews} </div>
+                <div className="review">
+                    <ul className="listItems">
+                        <li>{shop.reviews.length === 0 ? "This shop doesn't have any reviews." : mappedReviews}</li> 
+                        </ul>
+                        </div>
                 
             </div>
             <section>

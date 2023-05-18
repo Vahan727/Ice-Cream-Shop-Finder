@@ -44,7 +44,7 @@ border-radius:8px;
   text-align:center;
   margin-left:10px;
   line-height:3rem;
-  color:darkslategrey;
+  
 }
   .favFlavor {
   
@@ -78,36 +78,47 @@ border-radius:8px;
   border-radius:8px;
   
 }
-.reviews {
+.listItems {
   list-style-type:"🍦";
   font-size:20px;
-  line-height:2rem;
-  color:darkslategrey;
+  line-height:1rem;
+  
 }
 
 
-
-
-
-#search {
+.searchbar {
+  display:block;
+  margin-left:400px;
+}
+#search{
   width:400px;
+  
 }
+input#search{
+  background-color:moccasin;
+}
+
+
+
   
 
 .shops {
   list-style:none;
-  
+ 
 }
 
 
 .card {
-margin: 1rem;
+margin:1rem;
+margin-left:80px;
+
 max-width: 200px;
 display:inline-grid;
 box-shadow:20px 20px 50px grey;
 padding: 1rem;
 background-color:lightcoral;
 border-radius:8px;
+justify-self:center;
 }
 
 
@@ -135,10 +146,10 @@ button {
   
 
 .new-shop-form input{
- display:block;
+ display:flex;
  border-radius:8px;
- padding:10px 10px;
+ padding:10px 10px 10px 10px;
  width:50%;
- 
+ margin-top: 25px;
 
 }
