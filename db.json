@@ -8,7 +8,8 @@
       "description": "Welcome to Scoops Ice Cream Shop, a delightful haven for ice cream enthusiasts seeking a delectable treat to satisfy their sweet cravings. Step into a whimsical atmosphere adorned with colorful decorations and a delightful aroma that lures you in. Our wide array of handcrafted ice cream flavors, made with only the finest ingredients, tantalize taste buds with every scoop. From classic favorites like velvety vanilla and rich chocolate to unique creations like lavender honey and toasted marshmallow, there's a flavor to suit every palate. Indulge in our freshly baked waffle cones, expertly crafted sundaes, or build your own ice cream masterpiece with an array of mouthwatering toppings. At Scoops Ice Cream Shop, we strive to create unforgettable moments and joy-filled experiences, one lick at a time.",
       "favflavor": "Mint Chocolate Chip",
       "favflavor_image": "https://www.acouplecooks.com/wp-content/uploads/2022/08/Mint-Chocolate-Chip-Ice-Cream-001.jpg",
-      "rating": "",
+      "rating": 4,
+      "cost": "$",
       "reviews": [
         "The service at this ice cream shop was exceptional! The staff was friendly, attentive, and went above and beyond to make our experience delightful. They even offered personalized recommendations and made sure we were satisfied with our choices. Highly recommended!",
         "I can't rave enough about the quality of the ice cream at this shop. Each scoop was a little piece of heaven. The flavors were rich, creamy, and perfectly balanced, and the texture was incredibly smooth. I'm already planning my next visit!"
@@ -22,7 +23,8 @@
       "description": "Welcome to Harbor Ice, where indulgence meets coastal bliss! Nestled along the picturesque shoreline, our ice cream shop offers a tantalizing array of frozen delights that will transport your taste buds to a state of pure delight. With an emphasis on quality and creativity, our artisanal ice cream is lovingly crafted using the finest locally sourced ingredients, ensuring every scoop is a heavenly experience. From classic flavors with a twist to innovative creations inspired by the ocean breeze, Harbor Ice invites you to savor each lick while immersing yourself in the serene ambiance of our seaside-inspired decor. Whether you're seeking a refreshing treat on a sunny afternoon or a sweet escape from the bustling city, Harbor Ice promises an unforgettable ice cream adventure that will leave you longing for more.",
       "favflavor": "Funfetti",
       "favflavor_image": "https://dessertsonadime.com/wp-content/uploads/2022/02/Birthday-Cake-Ice-Cream-LR-14.jpg",
-      "rating": "",
+      "rating": 5,
+      "cost": "$$",
       "reviews": [
         "I had a wonderful experience at this ice cream shop. The staff was friendly and attentive, making sure I got exactly what I wanted. I appreciate their excellent customer service!",
         "The ice cream at this shop is absolutely amazing. Every flavor I tried was rich and creamy, and I could taste the high-quality ingredients in every bite. I can't wait to come back for more!"
@@ -36,7 +38,8 @@
       "description": "Welcome to Ice Cream Parlor, the ultimate destination for ice cream enthusiasts! Indulge in a delightful array of handcrafted frozen treats that will transport your taste buds to pure bliss. Our charming shop offers a nostalgic ambiance, complete with cozy seating and a friendly staff ready to guide you through our mouthwatering flavors. From classic favorites like rich chocolate and creamy vanilla to adventurous creations like salted caramel pretzel and exotic fruit sorbets, there's a scoop for every palate. With an emphasis on quality ingredients and impeccable craftsmanship, Ice Cream Parlor is a haven where dreams come true, one scoop at a time.",
       "favflavor": "Rockiest Road",
       "favflavor_image": "https://momswhosave.com/wp-content/uploads/2016/07/rocky-road-ice-cream-500x500.jpg",
-      "rating": "",
+      "rating": 3,
+      "cost": "$",
       "reviews": [
         "Oh my goodness! This ice cream shop is like a dream come true for my taste buds! The flavors are so yummy and magical; it's like they were made by ice cream fairies! I couldn't resist the temptation to have seconds (or maybe thirds) of their heavenly scoops. Highly recommended for a sweet adventure!",
         "Wow, this ice cream shop rocks! The service was super friendly and they even let me sample multiple flavors before deciding. Definitely coming back for more scoops!"
@@ -50,7 +53,8 @@
       "favflavor": "Jamaican Rum Raisin",
       "description": "Welcome to The Frosty Treats ice cream shop, where we bring the enchanting flavors of the North Pole to your taste buds. Step into a winter wonderland of delightful frozen delights as we craft creamy scoops and frosty creations that capture the essence of polar paradise. From Arctic Vanilla to Minty Glacier, our handcrafted ice creams transport you to a land of icy delights, while our inventive toppings and whimsical decorations add a touch of frosty magic. Indulge in the cool embrace of The Frosty Treats, where every spoonful is a chilly adventure straight from the heart of the North Pole.",
       "favflavor_image": "https://jerktavern.com/wp-content/uploads/2022/08/614F6A71-AB79-4749-A89E-8F7694EAC200-scaled.jpeg",
-      "rating": "",
+      "rating": 4,
+      "cost": "$$",
       "reviews": [
         "The service at this ice cream shop was amazing! The staff was so friendly and patient with our group of indecisive friends. We had a blast trying out all the different flavors and the staff made the whole experience even better!",
         "Oh my gosh, you guys, this ice cream joint is off the charts! The ice cream flavors are like pure heaven in a cone, I can't even! They've got all the classics, and even some wild ones like unicorn sprinkle explosion and cookie dough dreamland. Seriously, it's legit drool-worthy. Totally obsessed!"
@@ -65,6 +69,7 @@
       "favflavor": "Psychadelic Sherbet",
       "favflavor_image": "https://i.pinimg.com/originals/d8/22/13/d822134b26ed0b7fe4fc86eaff7111b4.jpg",
       "rating": "",
+      "cost": "$",
       "reviews": [
         "I gotta say, this ice cream shop knows how to treat their customers right! The staff was super friendly and helpful, making the whole experience enjoyable. Plus, they were quick to serve and had a wide variety of flavors to choose from. Definitely coming back for more!",
         "Oh my gosh, this ice cream is so bomb! The flavors are insanely good and the texture is super creamy. 10/10 would recommend to all my friends!"
@@ -78,7 +83,8 @@
       "description": "Welcome to Sweet Haven, the ultimate destination for indulgence! Our charming ice cream shop and candy emporium is a delightful haven for anyone with a sweet tooth. Step into a world of pure bliss as you discover our mouthwatering array of artisanal ice cream flavors, crafted with love and the finest ingredients. But the sweetness doesn't end there! Delight in our carefully curated selection of delectable candies from around the world, ensuring that every visit to Sweet Haven is an enchanting journey of sugary delights. Come and experience a little slice of heaven where ice cream dreams and candy fantasies come true.",
       "favflavor": "Popcorn",
       "favflavor_image": "https://webknox.com/recipeImages/656669-556x370.jpg",
-      "rating": "",
+      "rating": 4,
+      "cost": "$$",
       "reviews": [
         "Wow, this ice cream shop serves scoops faster than a penguin sliding on ice, I was impressed by their speedy service!",
         "Dude, this ice cream joint seriously rocks! The ice cream flavors are out of this world, and every scoop tastes like a slice of heaven in my mouth!"
@@ -92,7 +98,8 @@
       "description": "Lickity Split is a delightful ice cream shop that brings joy to every sweet tooth in town. With its charming ambiance and a tantalizing array of ice cream flavors, this place is a paradise for dessert enthusiasts. But that's not all! Lickity Split takes their indulgence a step further by offering mouthwatering root beer floats that perfectly blend the nostalgic fizz of root beer with creamy scoops of their homemade ice cream. Whether you're seeking a classic cone or a refreshing float, Lickity Split is the ultimate destination for delectable frozen treats that will leave you craving more.",
       "favflavor": "Banana Fudge",
       "favflavor_image": "https://loveeveryplate.com/wp-content/uploads/2022/07/banana-fudge-chunk-2215.jpg",
-      "rating": "",
+      "rating": 4,
+      "cost": "$",
       "reviews": [
         "Dude, the root beer at this place hits different, like a sweet bubbly symphony that makes my taste buds do a happy dance!",
         "This ice cream shop's service is on point, man! They always hook you up with a smile and speedy scoops, making it the go-to spot for a chill hangout with friends."
@@ -106,7 +113,8 @@
       "description": "Brain Freeze is a captivating ice cream shop that tantalizes taste buds with its extraordinary nitrogen ice cream creations. Using the mesmerizing power of liquid nitrogen, this innovative parlor crafts delightful frozen treats right before your eyes, resulting in a creamy texture and intense flavors that leave you craving for more. With an extensive array of mouthwatering flavors and an abundance of customizable toppings, Brain Freeze offers a delightful experience where science meets culinary artistry, leaving patrons in awe and satisfaction.",
       "favflavor": "Honey Lavender",
       "favflavor_image": "https://www.thespruceeats.com/thmb/BZouP-MJps8ZMwaw7HLH501iz-o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/twenty20_1f4bc0ca-c332-4de3-b4a2-1a45e27aaa4b-5a1bc78589eacc0037825518.jpg",
-      "rating": "",
+      "rating": 3,
+      "cost": "$$",
       "reviews": [
         "OMG, the ice cream at this place is lit! The flavors are off the hook, and the creamy texture is like a party in my mouth. Totally worth the brain freeze!",
         "The service at this ice cream shop is so on point, they treated me like a boss and I didn't even have to wait long for my order, definitely coming back!"
@@ -120,7 +128,8 @@
       "description": "Welcome to Frosty Dream, an enchanting ice cream shop where the spirit of Christmas comes alive year-round. Step into our whimsical wonderland as we transport you to Santa's workshop itself. The interior is adorned with twinkling lights, vibrant holiday decorations, and cheerful elves bustling about. Indulge in a delightful array of handcrafted, frosty treats inspired by the holiday season. From creamy candy cane swirls to gingerbread cookie crumbles, each scoop is a taste of pure holiday magic. Let the nostalgia of childhood memories and the warmth of festive cheer embrace you as you savor every delicious spoonful. At Frosty Dream, joy and sweetness intertwine to create an unforgettable experience that will leave you with a heart full of holiday bliss.",
       "favflavor": " The Happy Birthday! (Carrot Cake)",
       "favflavor_image": "https://ca-times.brightspotcdn.com/dims4/default/217fbfb/2147483647/strip/false/crop/2048x1365+0+0/resize/1486x990!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb4%2F13%2Febd581564aef6ac108f4356d1ae1%2Fkfpc9wnc-recipe-db",
-      "rating": "",
+      "rating": 5,
+      "cost": "$$",
       "reviews": [
         "I love how easy it is to find parking near the ice cream shop, making my visit even sweeter!",
         "OMG, this ice cream place is like a dream come true! The ice cream tastes like magical unicorn sprinkles and it's sooooo yummy!"
@@ -134,7 +143,8 @@
       "description": "Welcome to Soft Ice Cream, the ultimate destination for soft serve ice cream lovers! Our charming soft ice cream shop crafts velvety, mouthwatering treats that will transport you to dessert heaven. Indulge in our delectable array of flavors, from classic vanilla and rich chocolate to whimsical twists like strawberry cheesecake and salted caramel. Using only the finest ingredients and our secret recipe, we create luscious soft serve that boasts an irresistibly creamy texture. Whether you prefer your cone topped with colorful sprinkles or a drizzle of decadent fudge, we invite you to savor each delightful lick and experience pure frozen bliss at Soft Ice Cream.",
       "favflavor": "Goodbye Swirl (Tennessee Ham and Strawberry Jam)",
       "favflavor_image": "https://d3hwaim9vs2gfj.cloudfront.net/1828-1114731991.jpg",
-      "rating": "",
+      "rating": 5,
+      "cost": "$",
       "reviews": [
         "The ice cream shop had such a short wait time, I didn't even have a chance to finish scrolling through my Instagram feed!",
         "OMG, this ice cream joint serves the most epic flavors!"
@@ -148,12 +158,24 @@
       "description": "Welcome to Sweet Treats, the ultimate destination for ice cream lovers and confectionery enthusiasts. Indulge your sweet tooth with our delectable array of handcrafted ice cream flavors, ranging from classic favorites to innovative creations. But that's not all! We also offer a delightful selection of premium chocolates and candies, guaranteed to satisfy your cravings. Whether you're seeking a creamy scoop of ice cream or a tantalizing chocolate treat, Sweet Treats is your go-to shop for all things sweet and delightful.",
       "favflavor": "Delicious Strawberry",
       "favflavor_image": "https://www.thecountrycook.net/wp-content/uploads/2022/05/thumbnail-No-Churn-Strawberry-Ice-Cream.jpg",
-      "rating": "",
+      "rating": 4,
+      "cost": "$",
       "reviews": [
         "The chocolates at this ice cream shop are simply divine, with a melt-in-your-mouth texture and an irresistible blend of flavors that left me craving for more.",
         "This ice cream shop is lit! The flavors are off the charts, and every scoop is like a party in your mouth, making it the ultimate hangout spot!"
       ]
+    },
+    {
+      "name": "Example Shop",
+      "location": "Mars",
+      "store_image": "https://grandhoteloceancity.com/wp-content/uploads/2017/01/DSC_4693-1024x684.jpg",
+      "description": "We make the best Ice Cream in the World",
+      "favflavor": "Cookie Dough",
+      "favflavor_image": "https://iambaker.net/wp-content/uploads/2021/01/edible-cookie-dough-4.jpg",
+      "rating": 4,
+      "cost": "$$",
+      "reviews": [],
+      "id": 12
     }
-  
   ]
 }
