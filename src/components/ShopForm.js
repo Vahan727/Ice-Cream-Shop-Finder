@@ -36,9 +36,9 @@ function ShopForm(){
             <input type="text" name="favflavor_image" placeholder="favflavor image" value={formData.favflavor_image} onChange={handleOnChange}/>
             <input type="text" name="favflavor" placeholder="Favflavor" value={formData.favflavor} onChange={handleOnChange}/>
             <input type="text" name="description" placeholder="Flavor description" value={formData.description} onChange={handleOnChange}/>
-            <input type="number" name="cost" step="1.0" placeholder="Cost" value={formData.cost} onChange={handleOnChange}/>
+            <input type="number" name="cost" step="0.1" placeholder="Cost" value={formData.cost} onChange={handleOnChange}/>
             <input type="text" name="location" placeholder="Shop location" value={formData.location} onChange={handleOnChange}/>
-            <input type="number" name="rating" step="1.0" placeholder="Shop Rating" value={formData.rating} onChange={handleOnChange}/>
+            <input type="number" name="rating" step="0.1" placeholder="Shop Rating- max is 5" value={formData.rating} onChange={handleOnChange}/>
             <button type="submit">Add Shop</button>
           </form>
         </div>
