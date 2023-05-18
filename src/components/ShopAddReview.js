@@ -41,7 +41,7 @@ function handleSubmit(e) {
 
 
     return (
-        <div>
+        <div className="newReview">
             <h1>New Review</h1>
             <form onSubmit={(e) => handleSubmit(e)}>
                 <textarea value={newReview} name="review" maxLength="200" placeholder="Write your review here!" onChange={handleOnChangeReview}></textarea>      
