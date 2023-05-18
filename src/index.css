@@ -78,12 +78,10 @@ border-radius:8px;
   border-radius:8px;
   
 }
-.listItems {
-  list-style-type:"🍦";
-  font-size:20px;
-  line-height:1rem;
-  
-}
+ #contact {
+  display:flex;
+  justify-content:center;
+ }
 
 
 .searchbar {
@@ -98,8 +96,28 @@ input#search{
   background-color:moccasin;
 }
 
-
-
+.newReview{
+  
+  text-shadow:black 6px 4px 4px;
+  color:lightcoral;
+  font-size: 25px;
+  margin-left:80px;
+}
+.newReview textarea{
+  width:400px;
+  margin-left:400px;
+  border-radius:5px;
+ padding:1rem;
+ font-size:20px;
+ 
+ 
+}
+.newReview h1{
+  margin-left:470px;
+}
+.newReview button{
+  padding:10px;
+}
   
 
 .shops {
@@ -145,11 +163,36 @@ button {
 
   
 
-.new-shop-form input{
+.new-shop-form input {
  display:flex;
  border-radius:8px;
  padding:10px 10px 10px 10px;
  width:50%;
  margin-top: 25px;
+ margin-left:200px;
 
+}
+.new-shop-form select {
+  width:52%;
+  border-radius:8px;
+  padding:10px;
+  margin-top:25px;
+  margin-left:200px;
+}
+.new-shop-form button {
+  float:right;
+  margin-right:400px;
+  margin-top:25px;
+  padding:15px;
+  box-shadow:20px 20px 50px grey;
+}
+
+.new-shop-form button:hover{
+ background-color:rgb(208, 153, 58)
+ 
+}
+
+.new-shop-form h2{
+  display:flex;
+  margin-left:350px;
 }

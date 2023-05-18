@@ -41,9 +41,9 @@ const mappedReviews = shop.reviews.map((review, index) => <p key={index}>{review
                 <p className="cost">Cost: {shop.cost}</p>
                 <p className="reviews"> Reviews: </p>
                 <div className="review">
-                    <ul className="listItems">
-                        <li>{shop.reviews.length === 0 ? "This shop doesn't have any reviews." : mappedReviews}</li> 
-                        </ul>
+                   
+                        <p>{shop.reviews.length === 0 ? "This shop doesn't have any reviews." : mappedReviews}</p>
+                        
                         </div>
                 
             </div>
