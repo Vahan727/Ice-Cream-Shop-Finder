@@ -20,19 +20,21 @@ function getShop() {
     return(
         <>
         <div>
-            <figure>
+            <figure className="detailsImg">
                 <img src={shop.store_image} alt={shop.name} />
                 <img src={shop.favflavor_image} alt={shop.favflavor_name} />
             </figure>
         </div>
-        <div>
-                <p className="name"> Name: {shop.name}</p>
-                <p className="description">Description: {shop.description}</p>
-                <p className="location">Location: {shop.location}</p>
-                <p className="favFlavor">Favflavor: {shop.favflavor}</p>
+        <div className="detailsContainer" >
+                <p className="name">  {shop.name}</p>
+                <p className="description"> {shop.description}</p>
+                <div className="inline">
+                <p className="location">Located at  {shop.location}</p>
+                <p className="favFlavor">We recommend trying the  {shop.favflavor}</p>
+                </div>
                 <p className="rating">Rating: {shop.rating}</p>
-                <ul className="reviews">Reviews: {shop.reviews.map(review=>
-                    <li>{review}</li>)}</ul>
+                <ul className="reviews">Reviews: {shop.reviews?.map((review)=>
+                    <li>"{review}"</li>)}</ul>
                 {/*button that routes to the ShopAddReview component*/}
             </div>
             <section>
