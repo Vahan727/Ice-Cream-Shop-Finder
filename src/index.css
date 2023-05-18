@@ -9,13 +9,81 @@ body {
 header h1{
   display: flex;
   justify-content: center;
+  text-shadow:black 6px 4px 4px;
+  color:lightcoral;
+  text-size:larger;
 }
 .navigationBar {
   font-size:larger;
   margin:20px;
   flex-direction:row;
+  
 }
 
+figure {
+  display:flex;
+}
+figure img {
+float:left;
+width:400px;
+height:400px;
+object-fit:cover;
+margin-right:200px;
+box-shadow:20px 20px 50px grey;
+border-radius:8px;
+}
+.name {
+  font-size:50px;
+  color:lightcoral;
+  text-align:center;
+  text-shadow:black 6px 4px 4px;
+}
+.description {
+  font-size:20px;
+ backdrop-filter:blur(10px);
+  text-align:center;
+  margin-left:10px;
+  line-height:3rem;
+  color:darkslategrey;
+}
+  .favFlavor {
+  
+    color:darkslategrey;
+    font-size:25px;
+  
+  }
+
+  .location {
+    
+    color:darkslategrey;
+    font-size:25px;
+    margin:0;
+
+  }
+.inline {
+display:inline-block;
+text-align:center;
+box-shadow:20px 20px 50px grey;
+outline:inset lightcoral;
+outline-width:5px;
+border-radius:8px;
+
+}
+   
+  
+.detailsContainer {
+  display:grid;
+  grid-template-columns: 1 fr 1fr;
+  backdrop-filter:blur(10px);
+  border-radius:8px;
+  
+}
+.reviews {
+  list-style-type:"🍦";
+  font-size:20px;
+  line-height:2rem;
+  color:darkslategrey;
+}
 
 
 
@@ -54,4 +122,23 @@ button {
   cursor:pointer;
   font-family:'Trebuchet MS' sans-serif;
   border-radius:8px;
+}
+
+  .new-shop-form h2{
+    text-shadow:black 6px 4px 4px;
+    color:lightcoral;
+    font-size: 75px;
+    margin-left:80px;
+  }
+
+
+  
+
+.new-shop-form input{
+ display:block;
+ border-radius:8px;
+ padding:10px 10px;
+ width:50%;
+ 
+
 }
