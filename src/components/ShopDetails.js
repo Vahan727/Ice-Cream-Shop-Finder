@@ -3,7 +3,7 @@ import {useParams, Link} from 'react-router-dom'
 
 function ShopDetails({location}){
 
-const [shop, setShop] = useState([])
+const [shop, setShop] = useState({reviews: []})
 
 const {id} = useParams()
 
@@ -18,6 +18,8 @@ function getShop() {
     .then(resp => resp.json())
     .then(data => setShop(data))
 }
+
+const mappedReviews = shop.reviews.map((review, index) => <p key={index}>{review}</p>)
 
 
     return(
@@ -35,10 +37,11 @@ function getShop() {
                 <p className="location">Located at  {shop.location}</p>
                 <p className="favFlavor">We recommend trying the  {shop.favflavor}</p>
                 </div>
-                <p className="rating">Rating: {shop.rating}</p>
-                <p className="reviews">Reviews: {shop.reviews} </p>
-
-                {/*button that routes to the ShopAddReview component*/}
+                <p className="rating">Rating: {shop.rating} / 5</p>
+                <p className="cost">Cost: {shop.cost}</p>
+                <p className="reviews"> Reviews: </p>
+                <div className="review">{shop.reviews.length === 0 ? "This shop doesn't have any reviews." : mappedReviews} </div>
+                
             </div>
             <section>
                 <ul>
