@@ -169,6 +169,7 @@ button {
  padding:10px 10px 10px 10px;
  width:50%;
  margin-top: 25px;
+
  margin-left:200px;
 
 }
@@ -191,6 +192,7 @@ button {
  background-color:rgb(208, 153, 58)
  
 }
+
 
 .new-shop-form h2{
   display:flex;

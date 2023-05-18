@@ -7,7 +7,7 @@ function ShopAddReview() {
     const [shop, setShop] = useState({})
 
     const {id} = useParams()
-    const {history} = useHistory()
+    const history = useHistory()
 
     useEffect(() => {
       getShop()
@@ -33,11 +33,10 @@ function handleSubmit(e) {
       headers: {
         "Content-Type": "application/json"
       },
-      body: JSON.stringify([...shop.reviews, newReview])
+      body: JSON.stringify({...shop, reviews: [...shop.reviews, newReview]})
     })
     .then(res=>res.json())
     .then(()=>history.push(`/shopdetails/${id}`))
-    setNewReview()
 }
 
 
@@ -45,11 +44,8 @@ function handleSubmit(e) {
         <div className="newReview">
             <h1>New Review</h1>
             <form onSubmit={(e) => handleSubmit(e)}>
-                <textarea value={newReview} name="review" maxLength="200" placeholder="Write your review here!" onChange={handleOnChangeReview}></textarea>
-                <Link to={`/shopdetails/${id}`}>
-                <button type="button" >Add Review</button>
-                </Link>
-                
+                <textarea value={newReview} name="review" maxLength="200" placeholder="Write your review here!" onChange={handleOnChangeReview}></textarea>      
+                <input type="submit" value="Add Review"/>
             </form>
         </div>
     )
