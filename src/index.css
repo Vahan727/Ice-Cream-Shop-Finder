@@ -78,20 +78,28 @@ border-radius:8px;
   border-radius:8px;
   
 }
-.reviews {
+.listItems {
   list-style-type:"🍦";
   font-size:20px;
-  line-height:2rem;
+  line-height:1rem;
   
 }
 
 
-
-
-
-#search {
-  width:400px;
+.searchbar {
+  display:block;
+  margin-left:400px;
 }
+#search{
+  width:400px;
+  
+}
+input#search{
+  background-color:moccasin;
+}
+
+
+
   
 
 .shops {
@@ -101,7 +109,9 @@ border-radius:8px;
 
 
 .card {
-margin: 1rem;
+margin:1rem;
+margin-left:80px;
+
 max-width: 200px;
 display:inline-grid;
 box-shadow:20px 20px 50px grey;
@@ -136,9 +146,9 @@ button {
   
 
 .new-shop-form input{
- display:block;
+ display:flex;
  border-radius:8px;
- padding:10px 10px;
+ padding:10px 10px 10px 10px;
  width:50%;
  
 
