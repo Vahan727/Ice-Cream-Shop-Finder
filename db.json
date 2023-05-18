@@ -164,18 +164,6 @@
         "The chocolates at this ice cream shop are simply divine, with a melt-in-your-mouth texture and an irresistible blend of flavors that left me craving for more.",
         "This ice cream shop is lit! The flavors are off the charts, and every scoop is like a party in your mouth, making it the ultimate hangout spot!"
       ]
-    },
-    {
-      "name": "Example Shop",
-      "location": "Mars",
-      "store_image": "https://grandhoteloceancity.com/wp-content/uploads/2017/01/DSC_4693-1024x684.jpg",
-      "description": "We make the best Ice Cream in the World",
-      "favflavor": "Cookie Dough",
-      "favflavor_image": "https://iambaker.net/wp-content/uploads/2021/01/edible-cookie-dough-4.jpg",
-      "rating": 4,
-      "cost": "$$",
-      "reviews": [],
-      "id": 12
     }
   ]
 }
