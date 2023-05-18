@@ -1,5 +1,6 @@
 import React from "react"
-import {Switch, Route, useLocation} from "react-router-dom"
+import {Switch, Route, useLocation} from "react-router-dom";
+
 import Header from "./Header"
 import ShopPage from "./ShopPage"
 import ShopDetails from "./ShopDetails"
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header /> 
       <Switch>
       <Route path="/new"> <ShopForm location={location}/> </Route>
       <Route path="/addreview/:id"> <ShopAddReview location={location}/> </Route>

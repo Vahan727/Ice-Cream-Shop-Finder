@@ -1,4 +1,6 @@
 import {NavLink} from "react-router-dom";
+import{HashLink as Link} from "react-router-hash-link";
+
 
 
 function NavBar(){
@@ -7,7 +9,10 @@ function NavBar(){
         <div>
             <NavLink className="navigationBar" exact to="/">Home</NavLink>
             <NavLink className="navigationBar" exact to="/new" >Add A Shop</NavLink>
-            <NavLink className="navigationBar" exact to="/review">Contact Us</NavLink>
+            <Link to="#contact" smooth>Contact us</Link>
+           
+            {/* <NavLink className="navigationBar" exact to="/review">Contact Us</NavLink> */}
+        
         </div>
     )
 }
