@@ -25,6 +25,22 @@ User will be able to
 | /shops            | GET            |                                      | [{...},{...}]                        |
 | /shops            | POST           | {name:, location:, image:, favFlav:} | {id:, name:, image:, favFlav:}       |
 | /shops/:id         | PATCH          | {reviews:}                           | {id:,name:,image:,favFlav:,reviews:} |
+
+
+1. What was the hardest part of your project?  Why? 
+
+2. Did you have to restructure your project in any way?  How?
+
+3. How could you improve your project?
+
+4. What is something you would have done differently?
+
+5. What is the most exciting part of your project?
+
+6. What are you most proud of?
+
+7. What concepts made more sense for you after creating your project? 
+
                         
 
 <img src="./public/Home.png" alt="Home">
