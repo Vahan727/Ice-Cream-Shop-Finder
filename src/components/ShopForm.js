@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 function ShopForm(){
 
   const [formData, setFormData] = useState({name:"", location:"", store_image:"", description:"",favflavor: "",
-          favflavor_image:"",rating:0,   cost: 0, reviews:[]})
+          favflavor_image:"",rating: null,   cost: null, reviews:[]})
   const history = useHistory()
 
   function handleOnChange(e){
