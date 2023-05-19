@@ -12,7 +12,7 @@ function ShopPage({location}) {
     }, [])
     
     function getShops() {
-      fetch(`${process.env.REACT_APP_API_URL}/shops/`)
+      fetch(`http://localhost:3000/shops/`)
       .then(resp => resp.json())
       .then(data => setShops(data))
     }
