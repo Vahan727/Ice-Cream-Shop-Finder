@@ -26,8 +26,10 @@ function handleSearch(e) {
 
 
 const filteredShops = [...shops].filter((el) => {
-  return el.name.toLowerCase().includes(search.toLowerCase()
-  )})
+  return (
+    el.name.toLowerCase().includes(search.toLowerCase()) || el.location.toLowerCase().includes(search.toLowerCase())
+  )
+})
 
     const mappedShops = filteredShops.map((shop) => {
         return (
