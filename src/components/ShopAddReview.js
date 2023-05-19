@@ -14,7 +14,7 @@ function ShopAddReview() {
     }, [])
     
     function getShop() {
-      fetch(`http://localhost:3000/shops/${id}`)
+      fetch(`${process.env.REACT_APP_API_URL}/shops/${id}`)
       .then(resp => resp.json())
       .then(data => setShop(data))
     }
