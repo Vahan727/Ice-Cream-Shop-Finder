@@ -14,7 +14,7 @@ function ShopAddReview() {
     }, [])
     
     function getShop() {
-      fetch(`http://localhost:3000/shops/${id}`)
+      fetch(`https://shop-data-diyq.onrender.com/shops/${id}`)
       .then(resp => resp.json())
       .then(data => setShop(data))
     }
@@ -28,7 +28,7 @@ function handleOnChangeReview(e) {
 
 function handleSubmit(e) {
     e.preventDefault();
-    fetch(`http://localhost:3000/shops/${id}`, {
+    fetch(`https://shop-data-diyq.onrender.com/shops/${id}`, {
       method:"PATCH",
       headers: {
         "Content-Type": "application/json"

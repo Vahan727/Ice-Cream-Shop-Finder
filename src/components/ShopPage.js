@@ -12,7 +12,7 @@ function ShopPage({location}) {
     }, [])
     
     function getShops() {
-      fetch(`http://localhost:3000/shops/`)
+      fetch(`https://shop-data-diyq.onrender.com/shops/`)
       .then(resp => resp.json())
       .then(data => setShops(data))
     }

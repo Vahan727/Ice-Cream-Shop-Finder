@@ -17,7 +17,7 @@ favflavor_image:"",rating: null,   cost: null, reviews:[]}
 
   function handleOnSubmit(e){
     e.preventDefault();
-    fetch(`http://localhost:3000/shops/`, {
+    fetch(`https://shop-data-diyq.onrender.com/shops/`, {
       method:"POST",
       headers: {
         "Content-Type": "application/json"
